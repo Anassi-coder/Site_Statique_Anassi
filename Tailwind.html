@@ -3,24 +3,24 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="src/css/output.css">
     <title>Klivio-Tailwind</title>
   </head>
 
   <body class="font-mono">
-    <header class="flex flex-row justify-around items-center h-[80px] w-[100%] text-white" style="background-image: url(Images/header-bg.png);">
+    <header class="flex flex-row justify-around items-center h-[80px] w-full text-white" style="background-image: url(Images/header-bg.png);">
       <div class="h-[31px] w-[84px]">
         <a href="#"><img src="Images/logo.png" alt="Logo du site"></a>
       </div> 
       <a class="hidden md:block" href="#">Les formations</a>
-      <input class="border-1 p-2 w-[23%] hidden md:block" type="text" placeholder="Rechercher">
+      <input class="border p-2 w-[23%] hidden md:block" type="text" placeholder="Rechercher">
       <img class="hidden" src="Images/icone.svg" alt="Icone loupe">
       <div class="block md:hidden ml-30"> 
         <i class="fa-solid fa-bars fa-2x"></i>
